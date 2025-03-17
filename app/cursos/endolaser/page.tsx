@@ -12,7 +12,7 @@ export default function CursoEndolaser() {
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center">
         <Image
-          src="/placeholder.svg?height=400&width=600&text=Endolaser"
+          src="/IMG_6621.jpg?height=400&width=600&text=Endolaser"
           alt="Curso de Endolaser"
           layout="fill"
           objectFit="cover"

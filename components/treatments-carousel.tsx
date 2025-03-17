@@ -40,7 +40,7 @@ const treatments = [
   {
     name: "Fios de PDO",
     description: "Lifting não cirúrgico para um efeito rejuvenescedor imediato.",
-    image: "unnamed_(1).png",
+    image: "blog20230526.jpg",
     link: "/tratamentos/fios-de-pdo",
   },
   {
@@ -52,37 +52,37 @@ const treatments = [
   {
     name: "Endolaser",
     description: "Tratamento a laser para rejuvenescimento facial e corporal.",
-    image: "/IMG_6621,jpg?height=300&width=400&text=Endolaser",
+    image: "/IMG_6621.jpg?height=300&width=400&text=Endolaser",
     link: "/tratamentos/endolaser",
   },
   {
     name: "Preenchedores Corporais",
     description: "Modelagem e definição corporal com preenchedores.",
-    image: "/placeholder.svg?height=300&width=400&text=Preenchedores+Corporais",
+    image: "/Nutrologia-Goiania-Preenchedor-gluteo-com-acido-hialuronico-X-PMMA.png?height=300&width=400&text=Preenchedores+Corporais",
     link: "/tratamentos/preenchedores-corporais",
   },
   {
     name: "Bioplastia Íntima Masculina",
     description: "Procedimento para aumento e modelagem peniana.",
-    image: "/placeholder.svg?height=300&width=400&text=Bioplastia+Íntima+Masculina",
+    image: "/photo_2023-05-12_15-13-08.png?height=300&width=400&text=Bioplastia+Íntima+Masculina",
     link: "/tratamentos/bioplastia-intima-masculina",
   },
   {
     name: "Transplante Capilar",
     description: "Solução definitiva para a calvície e rarefação capilar.",
-    image: "/placeholder.svg?height=300&width=400&text=Transplante+Capilar",
+    image: "/transplante-capilar-implante-capilar-bio-renew-medicina-estetica.png?height=300&width=400&text=Transplante+Capilar",
     link: "/tratamentos/transplante-capilar",
   },
   {
     name: "Limpeza de Pele",
     description: "Tratamento profundo para uma pele limpa e radiante.",
-    image: "/placeholder.svg?height=300&width=400&text=Limpeza+de+Pele",
+    image: "/serv_facial_limp_pele_peeling_cristal.jpg.png?height=300&width=400&text=Limpeza+de+Pele",
     link: "/tratamentos/limpeza-de-pele",
   },
   {
     name: "Temporal Facelifting",
     description: "Técnica inovadora para lifting facial não cirúrgico.",
-    image: "/placeholder.svg?height=300&width=400&text=Temporal+Facelifting",
+    image: "/lifting-facial-não-cirúrgico.jpeg?height=300&width=400&text=Temporal+Facelifting",
     link: "/tratamentos/temporal-facelifting",
   },
 ]

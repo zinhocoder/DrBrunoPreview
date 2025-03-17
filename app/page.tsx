@@ -209,20 +209,20 @@ export default function Home() {
                   {[
                     { before: "/IMG_9576.png", after: "/IMG_4598.png" },
                     {
-                      before: "/placeholder.svg?height=300&width=400&text=Antes+2",
-                      after: "/placeholder.svg?height=300&width=400&text=Depois+2",
+                      before: "/IMG_0539.jpg?height=300&width=400&text=Antes+2",
+                      after: "/IMG_0538.jpg?height=300&width=400&text=Depois+2",
                     },
                     {
-                      before: "/placeholder.svg?height=300&width=400&text=Antes+3",
-                      after: "/placeholder.svg?height=300&width=400&text=Depois+3",
+                      before: "/IMG_0288.jpg?height=300&width=400&text=Antes+3",
+                      after: "/IMG_0286.jpg?height=300&width=400&text=Depois+3",
                     },
                     {
-                      before: "/placeholder.svg?height=300&width=400&text=Antes+4",
-                      after: "/placeholder.svg?height=300&width=400&text=Depois+4",
+                      before: "/ANTES-PACIENTE-1-1.jpg?height=300&width=400&text=Antes+4",
+                      after: "/DEPOIS-PACIENTE-1-1.jpg?height=300&width=400&text=Depois+4",
                     },
                     {
-                      before: "/placeholder.svg?height=300&width=400&text=Antes+5",
-                      after: "/placeholder.svg?height=300&width=400&text=Depois+5",
+                      before: "/IMG_0404.jpg?height=300&width=400&text=Antes+5",
+                      after: "/IMG_2275.jpg?height=300&width=400&text=Depois+5",
                     },
                   ].map((item, index) => (
                     <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3 p-2">
