@@ -372,7 +372,7 @@ export default function Home() {
                 alt="Instituto Bruno Marques Logo"
                 width={120}
                 height={120}
-                className="w-100 h-100"
+                className="w-400 h-400"
               />
             </div>
             <div className="text-center md:text-left mb-4 md:mb-0">

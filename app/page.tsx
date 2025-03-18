@@ -8,6 +8,7 @@ import Link from "next/link"
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel"
 import { SpecialistsSection } from "@/components/specialists-section"
 import TreatmentsCarousel from "@/components/treatments-carousel"
+import { InstagramFeed } from "@/components/instagram-feed"
 import { useRef, useEffect, useState } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import Layout from "@/components/layout"
@@ -369,6 +370,8 @@ export default function Home() {
             </div>
           </div>
         </section>
+         {/* Instagram Feed / Blog Section */}
+         <InstagramFeed />
       </div>
     </Layout>
   )

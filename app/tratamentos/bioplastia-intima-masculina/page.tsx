@@ -74,7 +74,7 @@ export default function BioplastiaIntimaMasculina() {
                 icon: <ThumbsUp className="w-12 h-12 text-gold" />,
                 title: "Aumento do Diâmetro",
                 description:
-                  "Ganho significativo de espessura peniana, proporcionando maior satisfação durante as relações.",
+                  "Ganho significativo de medidas penianas, proporcionando maior satisfação durante as relações.",
               },
               {
                 icon: <Shield className="w-12 h-12 text-gold" />,
@@ -95,7 +95,7 @@ export default function BioplastiaIntimaMasculina() {
               {
                 icon: <Star className="w-12 h-12 text-gold" />,
                 title: "Aumento da Autoestima",
-                description: "Maior confiança e satisfação na vida íntima, melhorando o bem-estar psicológico.",
+                description: "Maior confiança e satisfação na vida íntima, melhorando a qualidade de vida.",
               },
               {
                 icon: <CheckCircle className="w-12 h-12 text-gold" />,
@@ -127,12 +127,12 @@ export default function BioplastiaIntimaMasculina() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-0 items-center">
             <div>
               <Image
-                src="/placeholder.svg?height=600&width=800&text=Procedimento+Bioplastia+Íntima"
+                src="/IMG_2979.png?height=600&width=800&text=Procedimento+Bioplastia+Íntima"
                 alt="Procedimento de Bioplastia Íntima Masculina"
-                width={800}
+                width={400}
                 height={600}
                 className="rounded-lg shadow-lg"
               />
@@ -156,7 +156,7 @@ export default function BioplastiaIntimaMasculina() {
                     number: "03",
                     title: "Procedimento",
                     description:
-                      "Aplicação de substâncias biocompatíveis para aumentar o diâmetro peniano, realizado com anestesia local para seu conforto.",
+                      "Aplicação de preenchedores para aumento peniano, destravamento peniano e espessamento dérmico, além da redução de gordura localizada. Procedimento seguro, minimamente invasivo.",
                   },
                   {
                     number: "04",
@@ -251,8 +251,7 @@ export default function BioplastiaIntimaMasculina() {
 
             <div className="mt-12 text-center">
               <p className="text-lg text-gray-300 mb-6">
-                Estes são apenas alguns exemplos dos resultados que nossos pacientes obtiveram. Cada caso é único e os
-                resultados podem variar.
+                Confira alguns exemplos de casos que atendemos e obtiveram resultados incríveis!
               </p>
               <Button
                 size="lg"
@@ -279,7 +278,7 @@ export default function BioplastiaIntimaMasculina() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                name: "R.S., 42 anos",
+                name: "R.S., 24 anos",
                 testimonial:
                   "Sempre tive insegurança com relação ao tamanho. Após a bioplastia, minha autoconfiança aumentou significativamente e minha vida íntima melhorou muito.",
                 rating: 5,
@@ -287,7 +286,7 @@ export default function BioplastiaIntimaMasculina() {
               {
                 name: "M.A., 35 anos",
                 testimonial:
-                  "Procedimento indolor e com resultados imediatos. O Dr. Bruno e sua equipe foram extremamente profissionais e discretos durante todo o processo.",
+                  "Procedimento sem dor e sem cortes, com resultados imediatos. O Dr. Bruno e sua equipe garantem total profissionalismo e discrição em cada etapa do tratamento.",
                 rating: 5,
               },
               {
@@ -336,7 +335,7 @@ export default function BioplastiaIntimaMasculina() {
                 {
                   question: "Quanto tempo duram os resultados?",
                   answer:
-                    "Os resultados da Bioplastia Íntima Masculina são duradouros, podendo permanecer por vários anos. No entanto, fatores individuais como metabolismo e estilo de vida podem influenciar a longevidade dos resultados. Consultas de acompanhamento periódicas podem ser recomendadas para manutenção dos resultados.",
+                    "Os resultados da Bioplastia Íntima Masculina são duradouros, podendo permanecer por vários anos. No entanto, a longevidade dos resultados varia de acordo com cada corpo, metabolismo e estilo de vida. Para manter os efeitos desejados, o ideal é realizar manutenções periódicas, sendo recomendado um intervalo de aproximadamente 12 meses.",
                 },
                 {
                   question: "O procedimento afeta a função sexual?",
@@ -346,12 +345,12 @@ export default function BioplastiaIntimaMasculina() {
                 {
                   question: "Quanto tempo leva para recuperação?",
                   answer:
-                    "A recuperação é relativamente rápida. A maioria dos pacientes pode retornar às atividades normais em 2-3 dias, evitando apenas atividades físicas intensas e relações sexuais por um período de 2-3 semanas, conforme orientação médica.",
+                    "A recuperação é relativamente rápida. A maioria dos pacientes pode retornar às atividades normais em 2-3 dias, evitando apenas atividades físicas intensas. Em relação à atividade sexual, recomenda-se uma abstinência de 13 a 15 dias, conforme orientação médica.",
                 },
                 {
                   question: "Quais são os riscos do procedimento?",
                   answer:
-                    "Como qualquer procedimento médico, existem riscos, embora sejam mínimos quando realizado por profissionais qualificados. Possíveis efeitos colaterais incluem inchaço temporário, hematomas e desconforto leve. Complicações mais sérias são raras quando o procedimento é realizado por especialistas experientes como os do Instituto Bruno Marques.",
+                    "Como qualquer procedimento médico, existem riscos, embora sejam mínimos quando realizado por profissionais qualificados. Possíveis efeitos colaterais incluem inchaço temporário e hematomas. Complicações mais sérias são raras quando o procedimento é realizado por especialistas experientes.",
                 },
                 {
                   question: "Quem pode realizar o procedimento?",
@@ -474,7 +473,8 @@ export default function BioplastiaIntimaMasculina() {
               <p className="text-gray-600 mb-6 text-lg">
                 Especialista em Medicina Estética Avançada e pioneiro em técnicas de Bioplastia Íntima Masculina no
                 Brasil, o Dr. Bruno Marques traz sua vasta experiência e conhecimento para oferecer os melhores
-                resultados aos seus pacientes.
+                resultados aos seus pacientes. Ele é médico e fisioterapeuta formado, especializado em estética
+                corporal e facial, além de ser especialista em harmonização íntima masculina.
               </p>
 
               <div className="space-y-4 mb-8">

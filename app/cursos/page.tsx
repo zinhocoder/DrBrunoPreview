@@ -9,14 +9,14 @@ import Link from "next/link"
 
 const courses = [
   {
+    name: "Bioplastia Íntima Masculina",
+    description: "Aprenda procedimentos de aumento peniano e modelagem íntima masculina.",
+    link: "/cursos/bioplastia-intima-masculina",
+  },
+  {
     name: "Toxina Botulínica",
     description: "Aprenda técnicas avançadas de aplicação de toxina botulínica.",
     link: "/cursos/toxina-botulinica",
-  },
-  {
-    name: "Bioestimuladores",
-    description: "Domine o uso de bioestimuladores para rejuvenescimento da pele.",
-    link: "/cursos/bioestimuladores",
   },
   {
     name: "Endolaser",
@@ -34,9 +34,9 @@ const courses = [
     link: "/cursos/preenchedores",
   },
   {
-    name: "Bioplastia Íntima Masculina",
-    description: "Aprenda procedimentos de aumento peniano e modelagem íntima masculina.",
-    link: "/cursos/bioplastia-intima-masculina",
+    name: "Bioestimuladores",
+    description: "Domine o uso de bioestimuladores para rejuvenescimento da pele.",
+    link: "/cursos/bioestimuladores",
   },
   {
     name: "Bioremodeladores",

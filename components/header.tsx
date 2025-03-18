@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import { usePathname } from "next/navigation"
-import { Menu, X } from "lucide-react"
+import { Menu, X, Instagram } from "lucide-react"
 import Image from "next/image"
 
 export default function Header() {
@@ -51,6 +51,7 @@ export default function Header() {
     { name: "Cursos", path: "/cursos" },
     { name: "Resultados", path: isHomePage ? "#resultados" : "/#resultados" },
     { name: "Feedbacks", path: isHomePage ? "#feedbacks" : "/#feedbacks" },
+    { name: "Blog", path: isHomePage ? "#blog" : "/#blog" },
     { name: "Contato", path: isHomePage ? "#contato" : "/#contato" },
   ]
 
@@ -101,6 +102,15 @@ export default function Header() {
                       {item.name}
                     </Link>
                   ))}
+                  <Link
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-gold hover:text-white transition-colors mt-4"
+                  >
+                    <Instagram className="w-5 h-5" />
+                    <span>@institutobrunomarques</span>
+                  </Link>
                 </nav>
               </div>
             )}
@@ -162,6 +172,20 @@ export default function Header() {
                   </li>
                   <li>
                     <Link
+                      href="#blog"
+                      className="text-white hover:text-gray-100 transition-colors duration-300 font-semibold"
+                      onClick={(e) => {
+                        e.preventDefault()
+                        document.querySelector("#blog")?.scrollIntoView({
+                          behavior: "smooth",
+                        })
+                      }}
+                    >
+                      <span className="relative z-10">Blog</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
                       href="#contato"
                       className="text-white hover:text-gray-100 transition-colors duration-300 font-semibold"
                       onClick={(e) => {
@@ -191,6 +215,14 @@ export default function Header() {
                       className="text-white hover:text-gray-100 transition-colors duration-300 font-semibold"
                     >
                       <span className="relative z-10">Feedbacks</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/#blog"
+                      className="text-white hover:text-gray-100 transition-colors duration-300 font-semibold"
+                    >
+                      <span className="relative z-10">Blog</span>
                     </Link>
                   </li>
                   <li>

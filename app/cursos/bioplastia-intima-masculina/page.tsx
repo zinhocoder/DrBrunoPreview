@@ -394,8 +394,9 @@ export default function CursoBioplastiaIntimaMasculina() {
               <h3 className="text-3xl font-bold mb-4 text-gray-800">Seu Mentor e Especialista</h3>
               <p className="text-gray-600 mb-6 text-lg">
                 Especialista em Medicina Estética Avançada e pioneiro em técnicas de Bioplastia Íntima Masculina no
-                Brasil, o Dr. Bruno Marques traz sua vasta experiência e conhecimento para este curso exclusivo,
-                formando novos especialistas com as técnicas mais avançadas do mercado.
+                Brasil, o Dr. Bruno Marques traz sua vasta experiência e conhecimento para oferecer os melhores
+                resultados aos seus pacientes. Ele é médico e fisioterapeuta formado, especializado em estética
+                corporal e facial, além de ser especialista em harmonização íntima masculina.
               </p>
 
               <div className="space-y-4 mb-8">

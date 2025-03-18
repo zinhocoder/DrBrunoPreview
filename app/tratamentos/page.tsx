@@ -9,10 +9,10 @@ import Link from "next/link"
 
 const treatments = [
   {
-    name: "Harmonização Facial",
-    description: "Técnicas avançadas para equilibrar e realçar os traços faciais.",
-    image: "conceito-de-tratamento-de-beleza-jovem-recebendo-massagem-facial-de-cosmetologista-cortada-1.jpg",
-    link: "/tratamentos/harmonizacao-facial",
+    name: "Bioplastia Íntima Masculina",
+    description: "Procedimento para aumento e modelagem peniana.",
+    image: "/photo_2023-05-12_15-13-08.png?height=300&width=400&text=Bioplastia+Íntima+Masculina",
+    link: "/tratamentos/bioplastia-intima-masculina",
   },
   {
     name: "Preenchimento Labial",
@@ -63,10 +63,10 @@ const treatments = [
     link: "/tratamentos/preenchedores-corporais",
   },
   {
-    name: "Bioplastia Íntima Masculina",
-    description: "Procedimento para aumento e modelagem peniana.",
-    image: "/photo_2023-05-12_15-13-08.png?height=300&width=400&text=Bioplastia+Íntima+Masculina",
-    link: "/tratamentos/bioplastia-intima-masculina",
+    name: "Harmonização Facial",
+    description: "Técnicas avançadas para equilibrar e realçar os traços faciais.",
+    image: "conceito-de-tratamento-de-beleza-jovem-recebendo-massagem-facial-de-cosmetologista-cortada-1.jpg",
+    link: "/tratamentos/harmonizacao-facial",
   },
   {
     name: "Transplante Capilar",

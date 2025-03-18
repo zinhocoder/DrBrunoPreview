@@ -83,14 +83,14 @@ export default function PreenchimentoLabial() {
                       <CardContent className="flex aspect-square items-center justify-center p-6">
                         <div className="grid grid-cols-2 gap-4">
                           <Image
-                            src={`/placeholder.svg?height=200&width=200&text=Antes+${item}`}
+                            src={`/IMG_0288.jpg?height=200&width=200&text=Antes+${item}`}
                             alt={`Antes ${item}`}
                             width={200}
                             height={200}
                             className="rounded-lg"
                           />
                           <Image
-                            src={`/placeholder.svg?height=200&width=200&text=Depois+${item}`}
+                            src={`/IMG_0286.jpg?height=200&width=200&text=Depois+${item}`}
                             alt={`Depois ${item}`}
                             width={200}
                             height={200}
@@ -152,7 +152,7 @@ export default function PreenchimentoLabial() {
             {[1, 2, 3].map((item) => (
               <Image
                 key={item}
-                src={`/placeholder.svg?height=300&width=400&text=Espaço+${item}`}
+                src={`/FullSizeRender.jpg?height=300&width=400&text=Espaço+${item}`}
                 alt={`Espaço ${item}`}
                 width={400}
                 height={300}
@@ -206,12 +206,12 @@ export default function PreenchimentoLabial() {
       </section>
 
       {/* CTA */}
-      <section id="agendamento" className="py-16 bg-gold text-white">
+      <section id="agendamento" className="py-16 bg-gray-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Pronto para realçar a beleza dos seus lábios?</h2>
           <p className="text-xl mb-8">Agende sua consulta de Preenchimento Labial hoje mesmo!</p>
           <Link href="https://wa.me/5547992865256" passHref>
-            <Button size="lg" className="bg-white text-gold hover:bg-gray-100">
+            <Button size="lg" className="bg-gradient-to-r from-[#C4A052] to-[#D4AF37] text-white hover:from-[#D4AF37] hover:to-[#C4A052] text-lg px-12">
               Agendar Consulta
             </Button>
           </Link>
