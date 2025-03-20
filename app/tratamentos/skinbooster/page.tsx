@@ -11,7 +11,7 @@ export default function Skinbooster() {
     <Layout>
       {/* Hero Section */}
       <section className="relative h-[60vh] flex items-center justify-center">
-        <Image src="/images.jpeg" alt="Skinbooster" layout="fill" objectFit="cover" className="absolute z-0" />
+        <Image src="/images.jpeg" alt="Skinbooster" fill className="absolute z-0 object-cover" />
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         <div className="relative z-20 text-center text-white">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Skinbooster</h1>

@@ -14,9 +14,8 @@ export default function PreenchimentoLabial() {
         <Image
           src="/preenchimento_labial_tratamento.jpg"
           alt="Preenchimento Labial"
-          layout="fill"
-          objectFit="cover"
-          className="absolute z-0"
+          fill
+          className="absolute z-0 object-cover"
         />
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         <div className="relative z-20 text-center text-white">
@@ -63,7 +62,7 @@ export default function PreenchimentoLabial() {
                 alt="Preenchimento Labial"
                 width={600}
                 height={400}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg object-cover"
               />
             </div>
           </div>
@@ -76,22 +75,35 @@ export default function PreenchimentoLabial() {
           <h2 className="text-3xl font-bold text-center mb-12">Resultados Impressionantes</h2>
           <Carousel className="max-w-4xl mx-auto">
             <CarouselContent>
-              {[1, 2, 3].map((item) => (
-                <CarouselItem key={item} className="md:basis-1/2">
+              {[
+                {
+                  before: "/IMG_0288.jpg?height=200&width=200&text=Lábios+Antes+1",
+                  after: "/IMG_0286.jpg?height=200&width=200&text=Lábios+Depois+1",
+                },
+                {
+                  before: "/placeholder.svg?height=200&width=200&text=Lábios+Antes+2",
+                  after: "/placeholder.svg?height=200&width=200&text=Lábios+Depois+2",
+                },
+                {
+                  before: "/placeholder.svg?height=200&width=200&text=Lábios+Antes+3",
+                  after: "/placeholder.svg?height=200&width=200&text=Lábios+Depois+3",
+                },
+              ].map((item, index) => (
+                <CarouselItem key={index} className="md:basis-1/2">
                   <div className="p-1">
                     <Card>
                       <CardContent className="flex aspect-square items-center justify-center p-6">
                         <div className="grid grid-cols-2 gap-4">
                           <Image
-                            src={`/IMG_0288.jpg?height=200&width=200&text=Antes+${item}`}
-                            alt={`Antes ${item}`}
+                            src={item.before || "/placeholder.svg"}
+                            alt={`Antes ${index + 1}`}
                             width={200}
                             height={200}
                             className="rounded-lg"
                           />
                           <Image
-                            src={`/IMG_0286.jpg?height=200&width=200&text=Depois+${item}`}
-                            alt={`Depois ${item}`}
+                            src={item.after || "/placeholder.svg"}
+                            alt={`Depois ${index + 1}`}
                             width={200}
                             height={200}
                             className="rounded-lg"
@@ -149,16 +161,27 @@ export default function PreenchimentoLabial() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Conheça Nosso Espaço</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            {[1, 2, 3].map((item) => (
-              <Image
-                key={item}
-                src={`/FullSizeRender.jpg?height=300&width=400&text=Espaço+${item}`}
-                alt={`Espaço ${item}`}
-                width={400}
-                height={300}
-                className="rounded-lg shadow-lg"
-              />
-            ))}
+            <Image
+              src="/FullSizeRender.jpg?height=300&width=400&text=Sala+Preenchimento+1"
+              alt="Sala de Preenchimento Labial"
+              width={400}
+              height={300}
+              className="rounded-lg shadow-lg"
+            />
+            <Image
+              src="/placeholder.svg?height=300&width=400&text=Produtos+Preenchimento"
+              alt="Produtos para Preenchimento"
+              width={400}
+              height={300}
+              className="rounded-lg shadow-lg"
+            />
+            <Image
+              src="/IMG_4428 (1).jpg?height=300&width=400&text=Consultório+Preenchimento"
+              alt="Consultório para Preenchimento"
+              width={400}
+              height={300}
+              className="rounded-lg shadow-lg"
+            />
           </div>
         </div>
       </section>

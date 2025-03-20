@@ -14,9 +14,9 @@ export default function HarmonizacaoFacial() {
         <Image
           src="/conceito-de-tratamento-de-beleza-jovem-recebendo-massagem-facial-de-cosmetologista-cortada-1.jpg"
           alt="Harmonização Facial"
-          layout="fill"
-          objectFit="cover"
-          className="absolute z-0"
+          fill
+          style={{ objectFit: 'cover' }} // Aqui você controla o comportamento da imagem
+          className="absolute z-0 object-cover"
         />
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         <div className="relative z-20 text-center text-white">
@@ -61,8 +61,8 @@ export default function HarmonizacaoFacial() {
               <Image
                 src="/conceito-de-tratamento-de-beleza-jovem-recebendo-massagem-facial-de-cosmetologista-cortada-1.jpg"
                 alt="Harmonização Facial"
-                width={600}
-                height={400}
+                fill
+                style={{ objectFit: 'cover' }} // Aqui você controla o comportamento da imagem
                 className="rounded-lg shadow-lg"
               />
             </div>

@@ -12,6 +12,7 @@ export default function BioestimuladoresDeColageno() {
             <Image
               src="/Bioestimulador-de-Colageno-1-1024x768.jpg"
               alt="Bioestimuladores de Colágeno"
+              layout="fill"
               width={600}
               height={400}
               className="rounded-lg shadow-lg"

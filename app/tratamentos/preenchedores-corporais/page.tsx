@@ -14,9 +14,8 @@ export default function PreenchedoresCorporais() {
         <Image
           src="/placeholder.svg?height=400&width=600&text=Preenchedores+Corporais"
           alt="Preenchedores Corporais"
-          layout="fill"
-          objectFit="cover"
-          className="absolute z-0"
+          fill
+          className="absolute z-0 object-cover"
         />
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         <div className="relative z-20 text-center text-white">

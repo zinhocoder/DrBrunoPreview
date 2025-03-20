@@ -14,9 +14,8 @@ export default function BioestimuladoresDeColageno() {
         <Image
           src="/Bioestimulador-de-Colageno-1-1024x768.jpg"
           alt="Bioestimuladores de Colágeno"
-          layout="fill"
-          objectFit="cover"
-          className="absolute z-0"
+          fill
+          className="absolute z-0 object-cover"
         />
         <div className="absolute inset-0 bg-black opacity-50 z-10"></div>
         <div className="relative z-20 text-center text-white">
@@ -65,7 +64,7 @@ export default function BioestimuladoresDeColageno() {
                 alt="Bioestimuladores de Colágeno"
                 width={600}
                 height={400}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg shadow-lg object-cover"
               />
             </div>
           </div>
